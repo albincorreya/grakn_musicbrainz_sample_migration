@@ -29,7 +29,7 @@ Setup
 6. Go to http://0.0.0.0:4567 for the interactive web interface
 
 ------------------------------------------------------------------
-Batch Migration
+CSV Migration
 
 1. Run the shell script "migrate_loader.sh" from home directory
 
