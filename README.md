@@ -30,6 +30,7 @@ Setup
 Batch Migration
 
 1. Run the shell script "migrate_loader.sh" from home directory
+
    ./migrate_loader.sh '''your grakn directory'''
 
 
