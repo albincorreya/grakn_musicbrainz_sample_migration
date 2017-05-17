@@ -10,14 +10,15 @@ Note : Please go through the basic documentation of Grakn database and Graql que
 
 Setup
 
-1. Download and setup Grakn database from 
+1. Download and setup Grakn database from https://grakn.ai/pages/documentation/get-started/setup-guide.html
 
-2. cd <to your grakn directory>
+2. cd "your grakn directory"
 
 3. copy or clone the repo to this directory
 
-4. '''./bin/grakn.sh start
-      ./bin/graql.sh -f ./simplebrainz_ontology/basic-genealogy.gql'''
+4. '''./bin/grakn.sh start'''
+
+   '''./bin/graql.sh -f ./simplebrainz_ontology/basic-genealogy.gql'''
  
 5. Start the graql shell  '''./bin/graql.sh'''
 
