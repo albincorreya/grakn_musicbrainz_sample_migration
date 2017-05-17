@@ -2,10 +2,13 @@
 A sample script and ontology to migrate musical entities from musicbrainz.org to grakn graph databases
 
 
-Note : Please go through the basic documentation of Grakn database and Graql query language.
-              https://grakn.ai/pages/documentation/get-started/quickstart-tutorial.html
-       Also go thorugh basic details of musicbrainz.org schema representation.
-              https://musicbrainz.org/doc/MusicBrainz_Database/Schema
+Note : 
+
+Please go through the basic documentation of Grakn database and Graql query language.
+https://grakn.ai/pages/documentation/get-started/quickstart-tutorial.html
+
+Also go thorugh basic details of musicbrainz.org schema representation.
+https://musicbrainz.org/doc/MusicBrainz_Database/Schema
 
 Setup
 
