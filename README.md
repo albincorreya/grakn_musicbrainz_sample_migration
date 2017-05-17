@@ -10,6 +10,8 @@ https://grakn.ai/pages/documentation/get-started/quickstart-tutorial.html
 Also go thorugh basic details of musicbrainz.org schema representation.
 https://musicbrainz.org/doc/MusicBrainz_Database/Schema
 
+__________________________________________________________________
+
 Setup
 
 1. Download and setup Grakn database from https://grakn.ai/pages/documentation/get-started/setup-guide.html
@@ -26,7 +28,7 @@ Setup
 
 6. Go to http://0.0.0.0:4567 for the interactive web interface
 
-
+------------------------------------------------------------------
 Batch Migration
 
 1. Run the shell script "migrate_loader.sh" from home directory
