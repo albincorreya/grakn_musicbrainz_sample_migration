@@ -1,0 +1,4 @@
+match 
+	$artist has artist_gid <artist.gid>;
+	$recording has recording_group <recording.group>;
+insert (credit_recording: $artist, artist_recording: $recording) isa artist-recording;

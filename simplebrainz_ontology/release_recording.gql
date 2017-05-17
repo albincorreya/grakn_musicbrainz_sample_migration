@@ -1,0 +1,4 @@
+match 
+	$release_group has release_gid <release_group.gid>;
+	$recording has recording_group <recording.group>;
+insert (release_recording: $release_group, recording_release: $recording) isa release-recording;

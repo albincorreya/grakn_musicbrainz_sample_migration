@@ -1,0 +1,1 @@
+insert $x isa release_group has release_gid <release_group.gid> has release_title <release_group.name>;

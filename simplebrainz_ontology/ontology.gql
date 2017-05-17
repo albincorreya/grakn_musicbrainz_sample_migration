@@ -1,0 +1,71 @@
+
+
+insert
+
+	#add entities
+
+
+	artist sub entity
+		plays credit_album
+		plays credit_recording
+		has artist_gid
+		has artist_title
+		has artist_area;
+
+	recording sub entity
+		plays artist_recording
+		plays recording_release
+		has recording_group
+		has recording_title;
+
+	release_group sub entity
+		plays artist_release
+		plays release_recording
+		has release_gid
+		has release_title;
+
+
+	# add releations
+
+	artist-recording sub relation
+		relates credit_recording
+		relates artist_recording;
+
+	artist-release sub relation
+		relates credit_album
+		relates artist_release;
+
+	release-recording sub relation
+		relates release_recording
+		relates recording_release;
+
+
+	# add roles
+
+	credit_recording sub role;
+	artist_recording sub role;
+
+	credit_album sub role;
+	artist_release sub role;
+
+	release_recording sub role;
+	recording_release sub role;
+
+
+
+	#add resources
+
+	artist_gid sub resource datatype string;
+	artist_title sub resource datatype string;
+	artist_area sub resource datatype string;
+	release_gid sub resource datatype string;
+	release_title sub resource datatype string;
+	recording_group sub resource datatype string;
+	recording_title sub resource datatype string;
+
+
+
+
+
+
+

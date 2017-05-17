@@ -1,0 +1,5 @@
+
+match 
+	$artist has artist_gid <artist.gid>;
+	$release_group has release_gid <release_group.gid>;
+insert (credit_album: $artist, artist_release: $release_group) isa artist-release;

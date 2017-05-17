@@ -1,0 +1,1 @@
+insert $x isa artist has artist_gid <artist.gid> has artist_title <artist.name> has artist_area <artist.area>;
