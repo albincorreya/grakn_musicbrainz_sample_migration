@@ -20,9 +20,13 @@ Setup
 
 3. copy or clone the repo to this directory
 
-4. '''./bin/grakn.sh start'''
+4. Navigate to your Grakn directory.        
+         
+         $ cd "your_directory"
 
-   '''./bin/graql.sh -f ./simplebrainz_ontology/ontology.gql'''
+         $ ./bin/grakn.sh start
+         
+         $ ./bin/graql.sh -f ./simplebrainz_ontology/ontology.gql
     
 5. Start the graql shell  '''./bin/graql.sh'''
 
