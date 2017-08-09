@@ -1,5 +1,5 @@
 # grakn_musicbrainz_sample_migration
-A sample script and ontology to migrate musical entities from musicbrainz.org to grakn graph databases. 
+A sample script to migrate some musical entities from musicbrainz.org to grakn graph databases. 
 
 PS: In this example, we only used the first 100 artist,recording and release_group entities from the musicbrainz.org database.
 For scrapping data from musicbrainz database there are set of functions available in the following repository if you have direct access to the database.https://github.com/albincorreya/musicbrainz_queries
