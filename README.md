@@ -17,7 +17,7 @@ https://musicbrainz.org/doc/MusicBrainz_Database/Schema
 
 __________________________________________________________________
 
-Setup
+## Setup
 
 1. Download and setup Grakn database from https://grakn.ai/pages/documentation/get-started/setup-guide.html
 
@@ -36,6 +36,10 @@ Setup
          $ ./bin/grakn.sh start
 
 5. Go to http://0.0.0.0:4567 for the interactive web interface
+
+
+Screenshot of Grakn web interface
+https://user-images.githubusercontent.com/14850001/29896461-6345a31e-8ddd-11e7-8b9f-d49db56b7c69.png
 
 ------------------------------------------------------------------
 CSV Migration
