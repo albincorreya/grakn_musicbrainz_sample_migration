@@ -7,6 +7,11 @@ For scrapping data from musicbrainz database there are set of functions availabl
 Refer to https://musicbrainz.org/doc/MusicBrainz_Server/Setup for server setup.
 
 
+Screenshot of Grakn web interface
+
+https://user-images.githubusercontent.com/14850001/29896461-6345a31e-8ddd-11e7-8b9f-d49db56b7c69.png
+
+
 Note : 
 
 Please go through the basic documentation of Grakn database and Graql query language.
@@ -36,10 +41,6 @@ __________________________________________________________________
          $ ./bin/grakn.sh start
 
 5. Go to http://0.0.0.0:4567 for the interactive web interface
-
-
-Screenshot of Grakn web interface
-https://user-images.githubusercontent.com/14850001/29896461-6345a31e-8ddd-11e7-8b9f-d49db56b7c69.png
 
 ------------------------------------------------------------------
 CSV Migration
